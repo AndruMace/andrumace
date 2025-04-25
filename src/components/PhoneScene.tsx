@@ -1,5 +1,5 @@
 import { Canvas } from '@react-three/fiber';
-import { OrbitControls, Environment, Center, ContactShadows, AccumulativeShadows, RandomizedLight, Preload } from '@react-three/drei';
+import { OrbitControls, Environment, Center, ContactShadows, Preload } from '@react-three/drei';
 import Phone from './Phone';
 
 const PhoneScene = () => {
