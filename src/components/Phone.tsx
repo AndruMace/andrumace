@@ -7,7 +7,7 @@ const Phone = () => {
   const phoneRef = useRef<any>(null);
   
   // Load the screenshot texture
-  const texture = useLoader(TextureLoader, '/src/assets/screenshot.png');
+  const texture = useLoader(TextureLoader, 'screenshot.png');
   
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   
