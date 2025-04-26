@@ -18,7 +18,7 @@ function App() {
           <Route path="/pawpath" component={HomePage} />
           <Route path="/pawpath/privacy" component={PrivacyPolicy} />
           <Route path="/">
-            <Redirect to="/papwath" />
+            <Redirect to="/pawpath" />
           </Route>
         </Switch>
       </main>
